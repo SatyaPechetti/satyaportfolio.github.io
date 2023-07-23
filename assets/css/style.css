@@ -22,7 +22,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: url(/assets/images/bg.jpg) 0% 0% / cover repeat;
+  background: url(./assets/images/bg.jpg) 0% 0% / cover repeat;
   background-attachment: fixed;
 }
 
