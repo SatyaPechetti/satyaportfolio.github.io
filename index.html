@@ -3,94 +3,220 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
     <title>Satya's Portfolio</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="navbar-logo">
-          <a href="./">Satya Pechetti</a>
+          <a href="./">Satya's Portfolio</a>
         </div>
+        <i class="bx bx-menu" id="menu-icon"></i>
         <ul class="navbar-menu">
           <li>
-            <a href="about">About</a>
+            <a href="#home" class="active">Home</a>
           </li>
           <li>
-            <a href="https://satyapechetti.github.io/socialbook.github.io/"
-              >Projects</a
-            >
-            <!-- <ul>
-              <li>
-                <a href="https://satyapechetti.github.io/socialbook.github.io/"
-                  >project 1</a
-                >
-              </li>
-              <li><a href="#">project 2</a></li>
-              <li><a href="#">project 3</a></li>
-            </ul> -->
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="contact">Contact</a>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
+
+    <!-- Hone Section Design -->
     <div class="contentWraper">
-      <section class="profile-summery">
-        <div class="satya-image">
-          <img src="./assets/satya-img.png" alt="satya_photo" />
-        </div>
-        <div class="satya_summery">
-          <p>
-            Hi, I'm a Front-end Web Developer with 9+ years experience in
-            creating engaging and user-friendly interfaces for websites and web
-            applications, and launching high quality websites for client
-            businesses. A proven track record of leveraging Google Analytics and
-            SEO marketing strategies to drive website traffic and enhance user
-            engagement. If you're looking for a passionate and dedicated
-            front-end web developer to bring your ideas to life, I'd love to
-            connect and collaborate with you. Feel free to reach out to me at
-            <span class="changeColor">
-              <a href="mailto:satya5782@gmail.com">satya5782@gmail.com </a>
-            </span>
-            or connect with me on Whats app
-            <span class="changeColor">
-              <a href="https://wa.me/+971552853244">+971 552853244</a>
-            </span>
-            . Let's build something amazing together!
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hello, It's Me</h3>
+          <h1>Satyanarayana Pechetti</h1>
+          <h3>And I'm a <span>Front-end Web Developer</span></h3>
+          <p class="decrip">
+            I have 9+ years experience in creating engaging and user-friendly
+            interfaces for websites and web applications, and launching high
+            quality websites for client businesses. A proven track record of
+            leveraging Google Analytics and SEO marketing strategies to drive
+            website traffic and enhance user engagement.
           </p>
+          <div class="social-media">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </div>
+          <a href="" class="btn">Download CV <i class="bx bxs-download"></i></a>
+        </div>
+        <div class="home-img">
+          <img src="./assets/images/satya1-img.png" alt="" />
         </div>
       </section>
+
+      <!-- About section Design -->
+      <section class="about" id="about">
+        <!-- <div class="about-img">
+        <img src="./assets/images/satya1-img.png" alt="" />
+      </div> -->
+        <div class="about-content">
+          <h2 class="heading">About <span>Me</span></h2>
+          <h3>Front-end Web Developer</h3>
+          <p>
+            I have 9+ years experience in creating engaging and user-friendly
+            interfaces for websites and web applications, and launching high
+            quality websites for client businesses. A proven track record of
+            leveraging Google Analytics and SEO marketing strategies to drive
+            website traffic and enhance user engagement.
+          </p>
+          <p><span>My skills include:</span></p>
+          <ul>
+            <li>
+              Design mockups and wireframes into responsive and interactive web
+              pages using HTML5, CSS3, JavaScript, JQuery, React JS and Vue JS.
+            </li>
+            <li>
+              Ensure the website or application is compatible and works
+              consistently across different web browsers and devices.
+            </li>
+            <li>
+              Optimize front-end code for performance and fast loading times.
+            </li>
+            <li>
+              Test and debug front-end code for bugs, compatibility issues and
+              usability problems.
+            </li>
+            <li>
+              Collaborate with back-end developers and UX\UI designers to
+              integrate the front-end code with server-side logic, along with
+              user interface designs.
+            </li>
+            <li>
+              Use version control systems to manage and track changes to the
+              codebase.
+            </li>
+            <li>
+              Stay updated with the latest front-end development trends, tools,
+              and technologies.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Portfolio Section Design -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+          <div class="portfolio-box">
+            <img src="./assets/images/social-meadi1.JPG" alt="" />
+            <div class="portfolio-layer">
+              <h4>Social Media</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              </p>
+              <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="./assets/images/real-estate1.JPG" alt="" />
+            <div class="portfolio-layer">
+              <h4>Real Estate</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              </p>
+              <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="./assets/images/restaurant1.JPG" alt="" />
+            <div class="portfolio-layer">
+              <h4>F and B</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              </p>
+              <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="./assets/images/beauty-parlour2.JPG" alt="" />
+            <div class="portfolio-layer">
+              <h4>Beauty</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              </p>
+              <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="./assets/images/restaurant2.JPG" alt="" />
+            <div class="portfolio-layer">
+              <h4>Restaurant</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              </p>
+              <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="./assets/images/beauty-parlour.JPG" alt="" />
+            <div class="portfolio-layer">
+              <h4>Salon</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              </p>
+              <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section Design -->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number" />
+            <input type="text" placeholder="Email Subject" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </form>
+      </section>
     </div>
-    <footer>
-      <ul class="social-icons">
-        <li class="fbook">
-          <a href="https://www.facebook.com/satya.pechetti.37" target="_blank">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="linkedin">
-          <a href="https://www.linkedin.com/in/satyapechetti/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/iamsatyapechetti/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copy right &copy; 2023 by Satya Pechetti | all Rights reseved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
     </footer>
+
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
