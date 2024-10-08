@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 @font-face {
-  font-family: "Offlander";
-  src: url("../fonts/Offlander.otf") format("opentype");
+  font-family: 'Offlander';
+  src: url('.../images/Offlander.otf') format('opentype');
 }
 * {
   padding: 0;
@@ -72,12 +72,12 @@ section {
   left: 100%;
 }
 
-.navbar-logo{
+.navbar-logo {
   display: flex;
   align-items: center;
 }
 
-.navbar-logo img{
+.navbar-logo img {
   width: 9%;
 }
 .navbar-logo a {
@@ -240,7 +240,7 @@ span {
   margin-left: 1.5rem;
   margin-top: 1.5rem;
 }
-.about-content ul li{
+.about-content ul li {
   font-size: 1.8rem;
   line-height: 1.5;
   /* text-shadow: #2d44e0 1px 0 10px; */
@@ -379,30 +379,30 @@ footer {
 }
 
 /* UI / UX Designs */
-#wrap{
+#wrap {
   /* width: 100vw; */
   margin: auto;
   padding: 0 4rem;
 }
 
-.wrapper{
+.wrapper {
   position: relative;
   padding: 0 0 4rem 0;
   margin-top: 2.5rem;
 }
 
-.wrapper img{
+.wrapper img {
   width: 300px;
   height: 377px;
 }
 
-.topbar{
+.topbar {
   position: relative;
-  padding:  1.3rem 0;
-  margin:  0 0 2.8rem;
+  padding: 1.3rem 0;
+  margin: 0 0 2.8rem;
 }
 
-.back{
+.back {
   width: 40px;
   height: 40px;
   position: absolute;
@@ -424,13 +424,13 @@ footer {
   text-align: center;
   line-height: 40px;
 }
-.tp-grid{
+.tp-grid {
   list-style: none;
   position: relative;
   display: block;
 }
 
-.tp-grid li{
+.tp-grid li {
   position: absolute;
   cursor: pointer;
   border: 5px solid #bebebe;
@@ -439,23 +439,22 @@ footer {
   backface-visibility: hidden;
 }
 
-.no-js .tp-grid li{
+.no-js .tp-grid li {
   position: relative;
   display: inline-block;
-
 }
 
-.tp-grid li a{
+.tp-grid li a {
   display: block;
   outline: none;
 }
 
-.tp-grid li img{
+.tp-grid li img {
   display: block;
   border: none;
 }
 
-.tp-title{
+.tp-title {
   position: absolute;
   background: #fff;
   line-height: 26px;
@@ -466,24 +465,21 @@ footer {
   font-weight: 500;
   text-align: left;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1),
-              10px 0 10px -3px rgba(0, 0, 0, 0.7),
-              inset 0 0 5px rgba(0, 0, 0, 0.4);
+    10px 0 10px -3px rgba(0, 0, 0, 0.7), inset 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
-.tp-title{
+.tp-title {
   /* padding: 10px 35px 10px 10px; */
   left: 0px;
 }
 
-.tp-title span:nth-child(2){
+.tp-title span:nth-child(2) {
   color: #bebebe;
 }
-.tp-title span{
+.tp-title span {
   color: #031326;
   font-weight: bold;
 }
-
-
 
 /* BREAK POINTS */
 
@@ -585,16 +581,16 @@ footer {
   .navbar-logo a {
     font-size: 2rem;
     margin-left: 6px;
-}
-.navbar-logo img{
-  width: 10%;
-}
-.heading {
-  font-size: 2.5rem;
-}
-.smallHeading {
-  font-size: 2.2rem;
-}
+  }
+  .navbar-logo img {
+    width: 10%;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+  .smallHeading {
+    font-size: 2.2rem;
+  }
 }
 
 @media (max-width: 365px) {
@@ -609,5 +605,3 @@ footer {
     margin-top: 1rem;
   }
 }
-
-
