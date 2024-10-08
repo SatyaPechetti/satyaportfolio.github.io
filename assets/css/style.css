@@ -131,11 +131,11 @@ section {
   font-size: 1.6rem;
   text-align: justify;
 }
-.home-img {
-  /* width: 25vw; */
+/* .home-img {
+  width: 25vw;
   box-shadow: 0 0 1.5rem #0ef;
   border-radius: 50%;
-}
+} */
 .home-img img {
   width: 25vw;
 }
